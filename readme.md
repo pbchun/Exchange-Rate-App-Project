@@ -10,7 +10,7 @@ For this project, you will build a light application that reads data, has end-to
 * You need to write some data transformation that combines the two objects in a meaningful way
 * The resulting data should be dynamically added to the page
 * You should allow a user to change the API end point
-* Your app should have end-to-end validation with Cyprus testing
+* Your app should have end-to-end testing with Cyprus
 * Deploy your app
 
 ---
