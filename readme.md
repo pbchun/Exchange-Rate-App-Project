@@ -6,11 +6,11 @@ For this project, you will build a light application that reads data, has end-to
 
 * You should have a brochure page that has information about what your app does and who it's for.
 * Your app should make a GET request to an external API
-* Your app should also pull from a second source of data. This can be another API, another endpoint on the same API, or from a local .json file
+* Your app should also pull from a second source of data. This can be another API, another endpoint on the same API, or from a local `.json` file
 * You need to write some data transformation that combines the two objects in a meaningful way
 * The resulting data should be dynamically added to the page
 * You should allow a user to change the API end point
-* Your app should have end-to-end testing with Cyprus
+* Your app should have end-to-end tests
 * Deploy your app
 
 ---
