@@ -11,5 +11,5 @@
 * [ ] Accepts user input
     * [ ] User input changes the API endpoint
 * [ ] Dynamically adds data from API to page
-* [ ] Uses Cyprus testing
+* [ ] Has end-to-end tests
 * [ ] Deployed
