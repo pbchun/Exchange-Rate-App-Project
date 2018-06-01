@@ -1,0 +1,154 @@
+.index-body {
+    height: auto;
+    background-image: url("https://ak0.picdn.net/shutterstock/videos/20769580/thumb/1.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.home-body {
+    background-color: #CAE4DB;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 1%;
+    padding-right: 2%;
+    padding-left: 2%;
+    padding-bottom: 2%;
+    margin-top:10%;
+    margin-right: 30%;
+    margin-left: 30%;
+    margin-bottom: 5%;
+    font-family: 'Dosis', sans-serif;
+}
+
+.home-body a { 
+    text-decoration: none;
+    width: 30vh;
+    padding: 10px;
+    margin-top: 9vh;
+    border: 2px solid black;
+    align-self: center;
+    background-color: #7A9D96;
+}
+
+.home-body a:hover {
+    background-color: #52658F;
+}
+
+.home-body a:active {
+    background-color: #DCAE1D;
+}
+
+.home-body a:visited {
+    color: black;
+}
+
+.app-body {
+    background-image: url("http://www.theinvestblog.com/wp-content/uploads/2015/10/shutterstock_57674311.jpg");
+    background-position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: -10;
+}
+
+.conversion-body {
+    text-align: center;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 1%;
+    padding-bottom: 0;
+    background-color: #CAE4DB;
+    margin-left: 33%;
+    margin-right: 33%;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Dosis', sans-serif;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+#date-input {
+    margin: auto;
+    padding: 3px;
+}
+
+.save {
+    margin: auto;
+    margin-top: 5px;
+}
+
+.lists {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.dollar-conversion {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    padding-left: 0;
+}
+
+.comparison-rates {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    padding-left: 3vh;
+}
+
+.price-list-items {
+    list-style-type: none;
+    padding: 10px;
+    border: 0.5px solid black;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.conversion-body form {
+    margin-top: 2vh;
+}
+
+#date-input {
+    margin-top: 10px;
+}
+
+.conversion-body label {
+    font-weight: bold;
+}
+
+.conversion-body p {
+    padding-top: 3vh;
+    font-size: 0.8em;
+}
+
+.conversion-body a {
+    color: #E8E8E8;
+    text-decoration: none;
+    width: 30vh;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border: 2px solid black;
+    align-self: center;
+    background-color: #7A9D96;
+}
+
+.conversion-body a:hover {
+    background-color: #52658F;
+}
+
+.conversion-body a:active {
+    background-color: #DCAE1D;
+}
+
+.conversion-body a:visited {
+    color: black;
+}
+

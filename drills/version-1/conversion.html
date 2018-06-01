@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>What's Your Dollar Worth?</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+</head>
+
+<body class="app-body">
+
+    <main class="conversion-body">
+        <section class="conversion-section">
+            <h1>What's Your Dollar Worth?</h1>
+            <h3>The most recent foriegn exchange rates for $1 (USD)</h3>
+            <div class="lists">
+                <ul class="dollar-conversion">
+                    <label>Most Recent Rates: </label>
+                    <!-- Conversions will go here -->
+                </ul>
+                <ul class="comparison-rates">
+                    <label class="comparison-date-title"></label>
+                    <!-- Comparison rates go here -->
+                </ul>
+            </div>
+            <form>
+                <label for="new-date">Enter a date to compare historical foreign exchange rates since 1999.</label>
+                <label for="new-date">(YYYY-MM-DD)</label>
+                <input type="text" id="date-input" placeholder="YYYY-MM-DD" />
+                <button class="save" type="submit">Submit</button>
+            </form>
+            <p>*These foreign exchange rates are published by the European Central Bank*</p>
+        </section>
+        <a href="index.html">Back to Main Page</a>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
