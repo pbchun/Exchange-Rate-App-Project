@@ -1,21 +1,15 @@
-const latestRateUrl = 'https://exchangeratesapi.io/api/latest?base=USD'
+const recentRateUrl = 'https://exchangeratesapi.io/api/latest?base=USD'
 const $ul = document.querySelector('.dollar-conversion')
 const $comparisonUl = document.querySelector('.comparison-rates')
 const $form = document.querySelector('form')
 const $label = document.querySelector('.comparison-date-title')
 
 function loadPage() {
-    fetch(latestRateUrl)
+    fetch(recentRateUrl)
         .then(response => response.json())
         .then(listRates)
 }
 loadPage()
-
-function inputDateComparison(date) {
-    fetch(`https://exchangeratesapi.io/api/${date}?base=USD`)
-        .then(response => response.json())
-        .then(listComparisonRates)
-}
 
 function listRates(data) {
     const dataRates = Object.entries(data.rates)
@@ -32,9 +26,22 @@ function listRates(data) {
         $li.className = "price-list-items"
         $li.innerHTML = `${rate.country}: ${rate.price}`
         $ul.appendChild($li)
-        
     })
 }
+
+function inputDateComparison(date) {
+    fetch(`https://exchangeratesapi.io/api/${date}?base=USD`)
+        .then(response => response.json())
+        .then(listComparisonRates)
+}
+
+$form.addEventListener("submit", event => {
+    event.preventDefault();
+    const inputDate = document.querySelector('#date-input')
+    const inputValue = inputDate.value
+    inputDateComparison(inputValue)
+    $label.innerHTML = `${inputValue}: `
+})
 
 function listComparisonRates(data) {
     const dataRates = Object.entries(data.rates)
@@ -54,10 +61,3 @@ function listComparisonRates(data) {
     })
 }
 
-$form.addEventListener("submit", event => {
-    event.preventDefault();
-    const inputDate = document.querySelector('#date-input')
-    const inputValue = inputDate.value
-    inputDateComparison(inputValue)
-    $label.innerHTML = `${inputValue}: `
-})
