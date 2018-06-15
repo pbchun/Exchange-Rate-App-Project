@@ -17,4 +17,4 @@ For this project, you will build a light application that reads data, has end-to
 
 ### Submission
 
-Add a link to your code https://github.com/pbchun/galvanize-frontend-app/tree/master/drills/version-1, and your deployed site https://currency-exchange-rate-app.firebaseapp.com.
+Add a link to your deployed site https://currency-exchange-rate-app.firebaseapp.com.
