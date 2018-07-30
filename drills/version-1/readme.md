@@ -1,20 +1,10 @@
-## Galvanize Web App
+## What's Your Dollar Worth?
 
-For this project, you will build a light application that reads data, has end-to-end testing, and integrates with an API. The topic is up to you, so pick a project that speaks to your interests.
+This app was created using HTML, CSS, and JavaScript. This app allows the user to compare the exchange rate of $1 USD to the most recent exchange rate provided by the European Central Bank, using the exchangeratesapi.io API.
 
-### Instructions
+The user can also enter a date since 1999 to compare how the exchange rate has changed compared to the most recent rate. 
 
-* You should have a brochure page that has information about what your app does and who it's for.
-* Your app should make a GET request to an external API
-* Your app should also pull from a second source of data. This can be another API, another endpoint on the same API, or from a local `.json` file
-* You need to write some data transformation that combines the two objects in a meaningful way
-* The resulting data should be dynamically added to the page
-* You should allow a user to change the API end point. For example, get data about a specific movie, weather for a specific zip code, etc
-* Your app should have end-to-end tests
-* Deploy your app
 
----
+### Link to deployed site
 
-### Submission
-
-Add a link to your deployed site https://currency-exchange-rate-app.firebaseapp.com.
+https://currency-exchange-rate-app.firebaseapp.com
